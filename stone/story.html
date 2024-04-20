@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="homepage/logo_nav-removebg-preview.png" type="image/x-icon">
+    <title>crystal stone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .nav-item#a ::after {
+            content: '';
+            height: 3px;
+            width: 0%;
+            background: rgb(238, 44, 196);
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s;
+        }
+
+        .nav-item#a :hover:after {
+            width: 100%;
+        }
+
+        .nav-item#b ::after {
+            content: '';
+            height: 3px;
+            width: 0%;
+            background: #ebe704;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s;
+        }
+
+        .nav-item#b :hover:after {
+            width: 100%;
+        }
+
+        .nav-item#c ::after {
+            content: '';
+            height: 3px;
+            width: 0%;
+            background: #2421c7;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s;
+        }
+
+        .nav-item#c :hover:after {
+            width: 100%;
+        }
+
+        .nav-item#d ::after {
+            content: '';
+            height: 3px;
+            width: 0%;
+            background: #ff7707;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s;
+        }
+
+        .nav-item#d :hover:after {
+            width: 100%;
+        }
+
+        .item img {
+            height: 250px;
+            width: 250px;
+        }
+
+        .container-fluid-lg {
+            background-color: rgb(99, 31, 84);
+            background-size: cover;
+        }
+        .storyfont
+{
+    color: rgb(0, 0, 0);
+    font-family: "sans-serif, Arial";
+    font-size: 22px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.headingfont
+{
+    color: rgb(0, 0, 0);
+    font-size: 40; 
+}
+.privacyparagraph
+{
+    width: 1200px;
+    /* background: #181817; */
+    height: auto; 
+}
+.ourstoryParagraph
+{
+    width: auto;
+    /* background: #181817; */
+    height: auto;
+}
+.container-fluid-bg-dark{
+      margin:0;
+      padding:0;
+      /* background-color: #000000; */
+      background-size:cover; 
+         background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-position:unset;
+      height:1500px;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="homepage/logo nav.jpg" height="100px" width="120px"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="a">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item" id="b">
+                        <a class="nav-link active" aria-current="page" href="specail offer.html">SPECAIL OFFER</a>
+                    </li>
+                    <li class="nav-item" id="c">
+                        <a class="nav-link active" aria-current="page" href="new arrival.html">NEW Arrival</a>
+                    </li>
+                    <li class="nav-item" id="d">
+                        <a class="nav-link" href="product.html">PRODUCTS</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container-fluid-bg-ligth">
+        <div class="ourstorysection">
+            <br><br><br>
+
+            <div class="headingfont">
+                <h1>
+                    <center><b><i>Our Story</b></center>
+                </h1>
+            </div>
+
+            <br><br>
+
+            <div class="storyfont">
+                <div class="ourstoryParagraph">
+                    <center>
+                        <p>
+                            In the heart of a quaint little town nestled between rolling hills and lush forests, there stood a mysterious crystal shop that had been a source of intrigue and wonder for generations. The shop was named "Crystal Haven," and it was known far and wide for its enchanting array of gemstones, crystals, and mystical artifacts. Yet, it was the captivating story behind the shop that truly captured the imagination of those who crossed its threshold.
+
+The shop's proprietor, an enigmatic woman named Elara, was believed to possess ancient knowledge of the crystals' powers and a deep connection to the spiritual realm. Her silvery hair cascaded down her back, and her eyes sparkled like the precious gems that adorned her shelves. Locals whispered that she had lived for centuries, and some even believed her to be a guardian of the mystical energy that flowed through the town.
+
+One chilly autumn morning, a young woman named Lily wandered into Crystal Haven, her heart heavy with the weight of the world. She had recently lost her job and felt adrift in a sea of uncertainty. As she perused the shop's offerings, her gaze fell upon a magnificent amethyst crystal, its deep purple hues glistening with an otherworldly light.
+
+Elara approached Lily, her presence soothing and comforting. "That amethyst holds the power of clarity and healing," she said, her voice as melodious as a soft breeze. "It can help you find your path when you feel lost."
+
+
+
+
+
+
+
+                            <br>
+                            <hr>
+                            <br>
+                            Lily hesitated for a moment, then decided to purchase the amethyst. She carried it home and placed it on her nightstand, where its radiant energy filled her dreams with vivid visions. In those dreams, she saw herself pursuing a new career in the arts, something she had always been passionate about but had never dared to pursue.
+
+Encouraged by the amethyst's influence, Lily took her first steps toward her artistic aspirations. She began painting with a fervor she had never known before, pouring her heart and soul onto the canvas. Her work caught the attention of a local art gallery, and before long, her paintings were on display for all to see.
+
+As her art flourished, so did Lily's sense of purpose and happiness. She returned to Crystal Haven to thank Elara and share her incredible journey. Elara smiled warmly and shared a story of her own – how she had discovered the power of crystals centuries ago and used them to heal her own wounded soul.
+
+"Crystals are more than beautiful stones," Elara explained. "They are vessels of ancient wisdom and healing energy, waiting to assist those who seek their guidance."
+                            <br>
+                            <hr>
+                            <br>
+                            Lily continued to visit Crystal Haven, each time finding a new crystal that resonated with her and guided her on her life's journey. She felt a deep connection to Elara, who became a mentor and friend, helping her navigate not only the world of art but also the challenges of life.
+
+Word of Lily's transformation spread throughout the town, and soon, Crystal Haven became a sanctuary for people seeking not only crystals but also solace and guidance. Elara's shop became a place of healing, where the power of crystals helped people find their way and embrace their true selves.
+
+
+                            <br>
+                            <hr>
+                            <br>
+                            And so, in the heart of that quaint little town, Crystal Haven's legend grew, as it continued to change the lives of all who entered its doors, just as it had changed Lily's life on that fateful autumn morning. The magic of the crystals and the wisdom of Elara would forever be a source of hope and inspiration, lighting the way for those in need of guidance and transformation
+                        </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!-- content end -->
+        <!-- foter -->
+        <div class="footercontainer">
+            <!-- Footer -->
+            <footer class="bg-light text-center text-black">
+                <!-- Grid container -->
+                <div class="container-fluid p-4">
+                    <!-- Section: Social media -->
+                    <section class="mb-4">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                                class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                                class="fab fa-instagram"></i></a>
+
+
+                        <!-- Section: Social media -->
+                        <!-- Section: Links -->
+                        <section class="">
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">About us</h5>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a href="story.html" class="text-black">Our Story</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">Policies</h5>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a href="Privacy Policy.html" class="text-black">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">Customer Services</h5>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a href="contactus.html" class="text-black">Contact us</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase"></h5>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <img src="foter/HBL_logo.png" class="rounded float-end" height="50px"
+                                                width="100px" alt="...">
+                                        </li>
+                                        <li>
+                                            <img src="foter/vissa_crd.png" class="rounded float-end" height="60px"
+                                                width="100px" alt="...">
+                                        </li>
+                                        <li>
+                                            <img src="foter/3.jpg" class="rounded float-end" height="50px" width="80px"
+                                                alt="...">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column--><br>
+                                <hr>
+
+                                <h5 class="text-uppercase">Legal Stuff:</h5>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <p>The story of the Crystal Stone had been passed down through generations. It
+                                            was said that this
+                                            wondrous gem had the ability to grant any wish, but only to those with pure
+                                            hearts and noble
+                                            intentions. For centuries, villagers had searched for the Crystal Stone, but
+                                            none had ever succeeded
+                                            in finding it.<br>
+                                            Among the villagers was a young girl named Elara. She possessed a spirit of
+                                            adventure that burned
+                                            brighter than the sun. From a young age, Elara had been captivated by the
+                                            stories of the Crystal
+                                            Stone. She would often sit by the village elders, listening intently as they
+                                            recounted the tales of
+                                            brave heroes and daring quests.
+
+                                            As the years passed, Elara's fascination with the Crystal Stone grew into an
+                                            unshakable obsession.
+                                            She knew that she was meant for something greater than the quiet life of the
+                                            village. Determined to
+                                            uncover the truth behind the legend, she set out on a journey that would
+                                            change her life forever.
+
+                                            Elara's journey led her deep into the heart of the enchanted forest, where
+                                            ancient trees whispered
+                                            secrets and mysterious creatures roamed. She faced countless challenges
+                                            along the way, but her
+                                            determination never wavered. With each step, she grew closer to her destiny.
+                                        </p>
+                                    </li>
+
+                                </ul>
+
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+                        </section>
+                        <!-- Section: Links -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2023 Copyright:
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+        </div>
+</body>
+
+</html>

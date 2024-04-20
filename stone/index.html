@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="icon" href="homepage/logo_nav-removebg-preview.png" type="image/x-icon">
+  <title>Crystal stone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .nav-item#a ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: rgb(175, 6, 190);
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#a :hover:after {
+      width: 100%;
+    }
+
+    .nav-item#b ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: #ebe704;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#b :hover:after {
+      width: 100%;
+    }
+
+    .nav-item#c ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: #2421c7;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#c :hover:after {
+      width: 100%;
+    }
+
+    .nav-item#d ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: #ff7707;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#d :hover:after {
+      width: 100%;
+    }
+
+    .item img {
+      height: 250px;
+      width: 250px;
+    }
+
+    .container-fluid-lg {
+      background-color: rgb(99, 31, 84);
+      background-size: cover;
+    }
+    .btn{
+        background-color: #9b02a0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="homepage/logo nav.jpg" height="100px" width="120px"
+          alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item" id="a">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item" id="b">
+            <a class="nav-link active" aria-current="page" href="specail offer.html">SPECAIL OFFER</a>
+          </li>
+          <li class="nav-item" id="c">
+            <a class="nav-link active" aria-current="page" href="new arrival.html">NEW Arrival</a>
+          </li>
+          <li class="nav-item" id="d">
+            <a class="nav-link" href="product.html">PRODUCTS</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <br>
+  <!-- image section -->
+  <div class="conaiter">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="homepage/1.jpg" class="d-block w-100 " alt="..." height="700px">
+        </div>
+        <div class="carousel-item">
+          <img src="homepage/2.jpg" class="d-block w-100" alt="..." height="700px">
+        </div>
+        <div class="carousel-item">
+          <img src="homepage/3.jpg" class="d-block w-100" alt="..." height="700px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- imgend -->
+
+  <div class="container-fluid-lg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>CAOSHI Luxury Blue Crystal Stone Ring</h1>
+          <img src="homepage/left.jpg" class="img-fluid float-start img-thumbnail" width="400px" height="300px">
+          <font color="white">This listing is for ONE raw natural Apatite ring electroformed in pure Copper.
+            Please know your ring size before ordering, rings are not resizable or refundable. Stones are about 4-6mm in
+            size, but please keep in mind that they are natural, so will vary in exact shape, size, and color from the
+            pictures
+            Process:
+            Each ring is hand made beginning with the ring band, placing of the stone, and painting of the copper paint
+            onto the gemstone. Rings are then followed by a procedure call electroforming, electroforming involves a
+            12-24 hour process that deposits a strong bond of copper onto the ring creating a one of a kind piece. No
+            two rings will ever be the same, making each piece unique with it's own different plating, texture,
+            imperfections, and outcome..<br>Metals Type: Brass<br>
+            Material: Cubic Zirconia<br>
+            Gender: Women<br>
+            Style: TRENDY<br>
+            Rings Type: Wedding Bands<br>
+            Surface Width: 8mm,10mm<br>
+            Setting Type: Prong Setting<br>
+            Item Type: Rings<br>
+            Shape\pattern: Geometric<br>
+            Function: Gift<br>
+            Model Number: B2524<br>
+            Fine or Fashion: Fashion<br>
+            Occasion: Anniversary</font>
+        </div>
+        <div class="col-lg-6">
+          <h1>Apatite Ring | Raw Apatite Ring | Stacking Rings | Raw Apatite Gemstone Ring | Crystal Ring | Raw Stone
+            Jewelry | Blue Crystal Ring |</h1>
+          <img src="homepage/right.jpg" class="img-fluid float-end img-thumbnail" width="400px" height="400px">
+          <font color="white">This listing is for ONE raw natural Apatite ring electroformed in pure Copper.
+            Please know your ring size before ordering, rings are not resizable or refundable. Stones are about 4-6mm in
+            size, but please keep in mind that they are natural, so will vary in exact shape, size, and color from the
+            pictures.
+
+            Process:
+            Each ring is hand made beginning with the ring band, placing of the stone, and painting of the copper paint
+            onto the gemstone. Rings are then followed by a procedure call electroforming, electroforming involves a
+            12-24 hour process that deposits a strong bond of copper onto the ring creating a one of a kind piece. No
+            two rings will ever be the same, making each piece unique with it's own different plating, texture,
+            imperfections, and outcome.
+
+            Care Instructions:
+            To maintain the finish as long as possible, avoid prolonged exposure to water (you can still wash your hands
+            with the jewelry on but make sure to completely dry hands after wards), lotions, as well as harsh chemicals.
+            The copper will oxidize and darken over time giving it a warm deep finish. This is natural and every
+            oxidation is unique to the person who wears it and the environment in which they live. You can bring back
+            the original sheen by gently rubbing it with a soft polish cloth that is provided with every order, an
+            oxidation bag is also included to store your jewelry in when not wearing.</font>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="stone pic/1.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/2.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/3.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/4.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/5.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/6.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/7.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/8.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/9.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="stone pic/10.jpg" alt="">
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      autoplay: true,
+      autoplayTimeout: 1500,
+      stagePadding: 50,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+  <!-- foter -->
+  <div class="footercontainer">
+    <!-- Footer -->
+    <footer class="bg-light text-center text-black">
+      <!-- Grid container -->
+      <div class="container-fluid p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+
+          <!-- Section: Social media -->
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">About us</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="story.html" class="text-black">Our Story</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Policies</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="Privacy Policy.html" class="text-black">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Customer Services</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="contactus.html" class="text-black">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase"></h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <img src="foter/HBL_logo.png" class="rounded float-end" height="50px" width="100px" alt="...">
+                  </li>
+                  <li>
+                    <img src="foter/vissa_crd.png" class="rounded float-end" height="60px" width="100px" alt="...">
+                  </li>
+                  <li>
+                    <img src="foter/3.jpg" class="rounded float-end" height="50px" width="80px" alt="...">
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column--><br>
+              <hr>
+
+              <h5 class="text-uppercase">Legal Stuff:</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <p>The story of the Crystal Stone had been passed down through generations. It was said that this
+                    wondrous gem had the ability to grant any wish, but only to those with pure hearts and noble
+                    intentions. For centuries, villagers had searched for the Crystal Stone, but none had ever succeeded
+                    in finding it.<br>
+                    Among the villagers was a young girl named Elara. She possessed a spirit of adventure that burned
+                    brighter than the sun. From a young age, Elara had been captivated by the stories of the Crystal
+                    Stone. She would often sit by the village elders, listening intently as they recounted the tales of
+                    brave heroes and daring quests.
+
+                    As the years passed, Elara's fascination with the Crystal Stone grew into an unshakable obsession.
+                    She knew that she was meant for something greater than the quiet life of the village. Determined to
+                    uncover the truth behind the legend, she set out on a journey that would change her life forever.
+
+                    Elara's journey led her deep into the heart of the enchanted forest, where ancient trees whispered
+                    secrets and mysterious creatures roamed. She faced countless challenges along the way, but her
+                    determination never wavered. With each step, she grew closer to her destiny.</p>
+                </li>
+
+              </ul>
+
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+</body>
+
+</html>

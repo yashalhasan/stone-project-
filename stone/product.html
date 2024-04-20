@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="homepage/logo_nav-removebg-preview.png" type="image/x-icon">
+  <title>Crystal stone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .nav-item#a ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: rgb(238, 44, 196);
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#a :hover:after {
+      width: 100%;
+    }
+
+    .nav-item#b ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: #ebe704;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#b :hover:after {
+      width: 100%;
+    }
+
+    .nav-item#c ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: hwb(241 13% 22%);
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#c :hover:after {
+      width: 100%;
+    }
+
+    .nav-item#d ::after {
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: #ff7707;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+    }
+
+    .nav-item#d :hover:after {
+      width: 100%;
+    }
+
+    .item img {
+      height: 250px;
+      width: 250px;
+    }
+
+    .container-fluid-lg {
+      background-color: rgb(238, 44, 196);
+      background-size: cover;
+    }
+    #imgcard {
+      background-color: rgb(128, 16, 2);
+      border-radius: 10px;
+    }
+    .card img {
+      height: 285px;
+      width: 310px;
+    }
+    
+    .card {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 313px;
+      height: 455px;
+      border-radius: 10px;
+    }
+    .card:hover {
+      background-color: red;
+    }
+    .card:hover {
+      box-shadow: 20px 20px 30px rgb(223, 131, 26);
+    }
+    .card-body {
+      border-radius: 10px;
+
+    }
+   
+    .btn{
+        background-color: #ff0707;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="homepage/logo nav.jpg" height="100px" width="120px"
+          alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item" id="a">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item" id="b">
+            <a class="nav-link active" aria-current="page" href="specail offer.html">SPECAIL OFFER</a>
+          </li>
+          <li class="nav-item" id="c">
+            <a class="nav-link active" aria-current="page" href="new arrival.html">NEW Arrival</a>
+          </li>
+          <li class="nav-item" id="d">
+            <a class="nav-link" href="product.html">PRODUCTS</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <br>
+  <!-- start -->
+  <div class="container-fluid" id="imgcard" >
+    <h1 style="text-align: center; color: rgb(255, 196, 34);"><b><i>PRODUCTS</i></b></h1>
+   <div class="container">
+   <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="card mx-5 border-danger" >
+        <img src="PRODUCT/P11.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title"style="color: darkgoldenrod;">Labradorite Polished Stone -48mm.</h5>
+          <p class="card-text text-black">Price=999$</p>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" class="btn btn-danger">shop now</a>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content bg-light">
+                <div class="modal-header bg-light">
+                  <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Labradorite Polished Stone -48mm.</h1>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <img src="PRODUCT/P11.jpg" class="img-fluid border-danger" alt=""
+                          style="border-radius: 10px;">
+                      </div>
+                      <div class="col-lg-6 text-black">
+                        <b>buy one </b><hr><br> Price=999$<br><hr>
+                        <b>buy two </b><hr><br> price=1800$
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-danger">Order now</button>
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card mx-5 border-danger" >
+          <img src="PRODUCT/P2.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title"style="color: darkgoldenrod;">Rhodochrosite Thumbstone (Extra Grade) 40x30mm
+</h5>
+            <p class="card-text text-black">Price=299$</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-danger">shop now</a>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-light">
+                  <div class="modal-header bg-light">
+                    <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Rhodochrosite Thumbstone (Extra Grade) 40x30mm
+</h1>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <img src="PRODUCT/P2.jpg" class="img-fluid border-danger" alt=""
+                            style="border-radius: 10px;">
+                        </div>
+                        <div class="col-lg-6 text-black">
+                          <b>buy one </b><hr><br> Price=299$<br><hr>
+                        <b>buy two </b><hr><br> price=450$
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Order now</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card mx-5 border-danger" >
+            <img src="PRODUCT/P3.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title"style="color: darkgoldenrod;">Lapis Lazuli Thumb Stone-46mm</h5>
+              <p class="card-text text-black">Price=599$</p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3" class="btn btn-danger">shop now</a>
+              <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-light">
+                    <div class="modal-header bg-light">
+                      <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Lapis Lazuli Thumb Stone-46mm</h1>
+                      <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-light">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <img src="PRODUCT/P3.jpg" class="img-fluid border-danger" alt=""
+                              style="border-radius: 10px;">
+                          </div>
+                          <div class="col-lg-6 text-black">
+                            <b>buy one </b><hr><br> Price=599$<br><hr>
+                            <b>buy two </b><hr><br> price=1150$
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-danger">Order now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+   </div>
+   <!-- 4 -->
+   <div class="container">
+   <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="card mx-5 border-danger" >
+        <img src="PRODUCT/P4.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title"style="color: darkgoldenrod;">Malachite Crystal Dolphin-54x42mm</h5>
+          <p class="card-text text-black">Price=799$</p>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4" class="btn btn-danger">shop now</a>
+          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content bg-light">
+                <div class="modal-header bg-light">
+                  <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Malachite Crystal Dolphin-54x42mm</h1>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <img src="PRODUCT/P4.jpg" class="img-fluid border-danger" alt=""
+                          style="border-radius: 10px;">
+                      </div>
+                      <div class="col-lg-6 text-black">
+                        <b>buy one </b><hr><br> Price=799$<br><hr>
+                        <b>buy two </b><hr><br> price=1550$
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-danger">Order now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card mx-5 border-danger" >
+          <img src="PRODUCT/P5.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title"style="color: darkgoldenrod;">Snakeskin Jasper Pyramid-50mm </h5>
+            <p class="card-text text-black">Price=1999$</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal5" class="btn btn-danger">shop now</a>
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-light">
+                  <div class="modal-header bg-light">
+                    <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Snakeskin Jasper Pyramid-50mm</h1>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <img src="PRODUCT/P5.jpg" class="img-fluid border-danger" alt=""
+                            style="border-radius: 10px;">
+                        </div>
+                        <div class="col-lg-6 text-black">
+                          <b>buy one </b><hr><br> Price=1999$<br><hr>
+                        <b>buy two </b><hr><br> price=2800$
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Order now</button>
+                    <a href="menu.docx"><img src="image/button-menu.png" alt="Tutorialspoint"
+                        style="width:140px;height:60px;"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- 6 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card mx-5 border-danger" >
+            <img src="PRODUCT/P6.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title" style="color: darkgoldenrod;">Mini Tsavorite Healing Crystal -6mm</h5>
+              <p class="card-text text-black">Price=1199$</p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal6" class="btn btn-danger">shop now</a>
+              <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-light">
+                    <div class="modal-header bg-light">
+                      <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Mini Tsavorite Healing Crystal -6mm</h1>
+                      <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-light">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <img src="PRODUCT/P6.jpg" class="img-fluid border-danger" alt=""
+                              style="border-radius: 10px;">
+                          </div>
+                          <div class="col-lg-6 text-black">
+                            <b>buy one </b><hr><br> Price=1199$<br><hr>
+                        <b>buy two </b><hr><br> price=2300$
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-danger">Order now</button>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+   </div>
+   <!-- 7 -->
+   <div class="container">
+   <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="card mx-5 border-danger" >
+        <img src="PRODUCT/P7.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title" style="color: darkgoldenrod;">Rainbow Fluorite Tealight Candle Holder -8.5 x 6cm.</h5>
+          <p class="card-text text-black">Price=1299$</p>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal7" class="btn btn-danger">shop now</a>
+          <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content bg-light">
+                <div class="modal-header bg-light">
+                  <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Rainbow Fluorite Tealight Candle Holder -8.5 x 6cm.</h1>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <img src="PRODUCT/P7.jpg" class="img-fluid border-danger" alt=""
+                          style="border-radius: 10px;">
+                      </div>
+                      <div class="col-lg-6 text-black">
+                        <b>buy one </b><hr><br> Price=1299$<br><hr>
+                        <b>buy two </b><hr><br> price=2500$
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-danger">Order now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- 8 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card mx-5 border-danger" >
+          <img src="PRODUCT/P8.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title" style="color: darkgoldenrod;">Trinity Stone Tumblestone (Extra Grade)-25mm</h5>
+            <p class="card-text text-black">Price=1499$</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal8" class="btn btn-danger">shop now</a>
+            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-light">
+                  <div class="modal-header bg-light">
+                    <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Trinity Stone Tumblestone (Extra Grade)-25mm</h1>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <img src="PRODUCT/P8.jpg" class="img-fluid border-danger" alt=""
+                            style="border-radius: 10px;">
+                        </div>
+                        <div class="col-lg-6 text-black">
+                          <b>buy one </b><hr><br> Price=1499$<br><hr>
+                          <b>buy two </b><hr><br> price=2900$
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Order now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- 9 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card mx-5 border-danger" >
+            <img src="PRODUCT/P9.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title"style="color: darkgoldenrod;">Sugilite Mini Tumblestone Chips</h5>
+              <p class="card-text text-black">Price=3999$</p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal9" class="btn btn-danger">shop now</a>
+              <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-light">
+                    <div class="modal-header bg-light">
+                      <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Sugilite Mini Tumblestone Chips</h1>
+                      <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-light">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <img src="PRODUCT/P9.jpg" class="img-fluid border-danger" alt=""
+                              style="border-radius: 10px;">
+                          </div>
+                          <div class="col-lg-6 text-black">
+                            <b>buy one </b><hr><br> Price=3999$<br><hr>
+                        <b>buy two </b><hr><br> price=7800$
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-danger">Order now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+    
+   </div>
+   </div>
+  </div>
+  <!-- start end -->
+  <!-- foter -->
+  <div class="footercontainer">
+    <!-- Footer -->
+    <footer class="bg-light text-center text-black">
+      <!-- Grid container -->
+      <div class="container-fluid p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+
+          <!-- Section: Social media -->
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">About us</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="story.html" class="text-black">Our Story</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Policies</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="Privacy Policy.html" class="text-black">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Customer Services</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="contactus.html" class="text-black">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase"></h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <img src="foter/HBL_logo.png" class="rounded float-end" height="50px" width="100px" alt="...">
+                  </li>
+                  <li>
+                    <img src="foter/vissa_crd.png" class="rounded float-end" height="60px" width="100px" alt="...">
+                  </li>
+                  <li>
+                    <img src="foter/3.jpg" class="rounded float-end" height="50px" width="80px" alt="...">
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column--><br>
+              <hr>
+
+              <h5 class="text-uppercase">Legal Stuff:</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <p>The story of the Crystal Stone had been passed down through generations. It was said that this
+                    wondrous gem had the ability to grant any wish, but only to those with pure hearts and noble
+                    intentions. For centuries, villagers had searched for the Crystal Stone, but none had ever succeeded
+                    in finding it.<br>
+                    Among the villagers was a young girl named Elara. She possessed a spirit of adventure that burned
+                    brighter than the sun. From a young age, Elara had been captivated by the stories of the Crystal
+                    Stone. She would often sit by the village elders, listening intently as they recounted the tales of
+                    brave heroes and daring quests.
+
+                    As the years passed, Elara's fascination with the Crystal Stone grew into an unshakable obsession.
+                    She knew that she was meant for something greater than the quiet life of the village. Determined to
+                    uncover the truth behind the legend, she set out on a journey that would change her life forever.
+
+                    Elara's journey led her deep into the heart of the enchanted forest, where ancient trees whispered
+                    secrets and mysterious creatures roamed. She faced countless challenges along the way, but her
+                    determination never wavered. With each step, she grew closer to her destiny.</p>
+                </li>
+
+              </ul>
+
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+</body>
+
+</html>
